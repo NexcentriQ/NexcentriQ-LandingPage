@@ -24,9 +24,9 @@
     --popover: 0 0% 89%;
     --popover-foreground: 0 0% 9%;
 
-    /* Cyan/Blue Accent as Primary */
-    --primary: 20 90% 48%;
-    --primary-foreground: 33 100% 96%;
+    /* Primary CTA — medium orange (lighter than old 48% L; white text stays readable) */
+    --primary: 25 90% 54%;
+    --primary-foreground: 0 0% 100%;
 
     --secondary: 0 0% 32%;
     --secondary-foreground: 0 0% 98%;
@@ -42,7 +42,7 @@
 
     --border: 0 0% 83%;
     --input: 0 0% 83%;
-    --ring: 20 90% 48%;
+    --ring: 25 90% 54%;
 
     --radius: 0.75rem;
 
@@ -55,12 +55,12 @@
 
     --sidebar-background: 220 18% 8%;
     --sidebar-foreground: 0 0% 9%;
-    --sidebar-primary: 20 90% 48%;
-    --sidebar-primary-foreground: 33 100% 96%;
+    --sidebar-primary: 25 90% 54%;
+    --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 0 0% 32%;
     --sidebar-accent-foreground: 0 0% 98%;
     --sidebar-border: 0 0% 83%;
-    --sidebar-ring: 20 90% 48%;
+    --sidebar-ring: 25 90% 54%;
     --chart-1: 27 95% 60%;
     --chart-2: 43 96% 56%;
     --chart-3: 47 95% 53%;
