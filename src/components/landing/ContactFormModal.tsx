@@ -126,10 +126,17 @@ export const ContactFormModal = ({ isOpen, onClose }: ContactFormModalProps) => 
             <div
               className={cn(
                 "glass-strong relative overflow-hidden rounded-[1.35rem]",
-                "ring-1 ring-black/[0.06] dark:ring-white/[0.08]",
+                "border-primary/25 shadow-[0_0_0_1px_hsl(var(--primary)/0.12),0_20px_50px_-16px_hsl(var(--primary)/0.14),0_0_40px_-12px_hsl(var(--primary)/0.08)]",
+                "transition-[border-color,box-shadow] duration-500 ease-out",
+                "focus-within:border-primary/45",
+                "focus-within:shadow-[0_0_0_1px_hsl(var(--primary)/0.28),0_0_48px_-8px_hsl(var(--primary)/0.32),0_24px_56px_-20px_hsl(var(--primary)/0.2)]",
+                "dark:border-primary/30 dark:focus-within:border-primary/50",
                 "p-6 sm:p-8 sm:pb-9",
-                "before:pointer-events-none before:absolute before:inset-x-0 before:top-0 before:h-px",
-                "before:bg-gradient-to-r before:from-transparent before:via-primary/35 before:to-transparent",
+                "before:pointer-events-none before:absolute before:inset-0 before:rounded-[1.35rem] before:p-px",
+                "before:bg-gradient-to-br before:from-primary/35 before:via-primary/[0.08] before:to-transparent",
+                "before:[mask:linear-gradient(#fff_0_0)_content-box,linear-gradient(#fff_0_0)] before:[mask-composite:exclude] before:[-webkit-mask-composite:xor]",
+                "after:pointer-events-none after:absolute after:inset-x-0 after:top-0 after:h-px",
+                "after:bg-gradient-to-r after:from-transparent after:via-primary/40 after:to-transparent",
               )}
             >
               <button
