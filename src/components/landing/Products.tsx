@@ -9,8 +9,8 @@ const products = [
     icon: Store,
     name: "PayAtCounter",
     tagline: "Restaurant & Retail App",
-    description: "A white-label restaurant & retail app that allows businesses to launch their own branded ordering and payment experience with custom logos, designs, and branding.",
-    features: ["Custom branding", "Payment integration", "Order management", "Multi-location support"],
+    description: "PayAtCounter is a comprehensive, AI-powered platform that lets restaurants manage all their franchises seamlessly — across multiple locations and states — while providing a smooth, modern experience for customers.",
+    features: ["Multi-Location Management", "AI-Powered Recommendations", "Menu & Offer Management", "Seamless Ordering & Payment"],
     gradient: "from-primary to-cyan-400",
   },
   {
@@ -24,9 +24,9 @@ const products = [
   {
     icon: ShoppingBag,
     name: "OneStop",
-    tagline: "Fashion Commerce Platform",
-    description: "A white-label fashion commerce platform that enables designers and startups to launch fully branded online clothing stores effortlessly.",
-    features: ["Storefront builder", "Inventory management", "Payment processing", "Shipping integration"],
+    tagline: "AI-Powered Fashion Commerce Platform",
+    description: "OneStop is a single, AI-powered platform that enables startups and businesses to launch their own branded online fashion stores instantly.",
+    features: ["Inventory & expense management", "Order & customer management", "AI-powered product recommendations", "Secure payments & checkout"],
     gradient: "from-pink-500 to-rose-400",
   },
 ];
@@ -36,7 +36,7 @@ export const Products = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="products" ref={ref} className="py-24 section-gradient">
+    <section id="products" ref={ref} className="py-24 bg-card/30">
       <div className="container mx-auto px-4 lg:px-8">
         {/* Section Header */}
         <motion.div
@@ -66,7 +66,7 @@ export const Products = () => {
             >
               {/* Gradient Top Border */}
               <div className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${product.gradient}`} />
-              
+
               <div className="p-8">
                 {/* Badge */}
                 <Badge variant="outline" className="mb-6 border-primary/50 text-primary bg-primary/10">

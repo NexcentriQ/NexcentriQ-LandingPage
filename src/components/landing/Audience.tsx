@@ -7,20 +7,20 @@ const audiences = [
   {
     icon: User,
     title: "Non-Technical Founders & Businesses",
-    description: "Transform your ideas into reality without writing a single line of code. We handle the technical complexity.",
+    description: "Turn your ideas into reality without writing a single line of code. We handle the technical complexity while you focus on growth.",
     features: ["No coding required", "Full project ownership", "Ongoing support"],
-  },
-  {
-    icon: Landmark,
-    title: "Government & Public Sector",
-    description: "Secure, compliant digital solutions that modernize public services and improve citizen engagement.",
-    features: ["Enterprise security", "Compliance-ready", "Scalable infrastructure"],
   },
   {
     icon: Rocket,
     title: "Startups & Enterprises",
-    description: "From MVP to scale, we build products that grow with your business and adapt to market demands.",
-    features: ["Rapid prototyping", "Scalable architecture", "Market-ready products"],
+    description: "From MVP to full-scale products, we provide rapid prototyping, scalable architecture, and market-ready solutions.",
+    features: ["Rapid prototyping", "Scalable architecture", "Market-ready solutions"],
+  },
+  {
+    icon: Landmark,
+    title: "Government & Public Sector",
+    description: "Modernize public services with secure, compliant digital solutions that enhance citizen engagement.",
+    features: ["Enterprise security", "Compliance-ready", "Scalable infrastructure"],
   },
 ];
 
@@ -43,7 +43,7 @@ export const Audience = () => {
             Built for Every Business
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Whether you're a solo founder or a Fortune 500 company, we have the expertise to deliver.
+            We partner with a diverse range of clients — from solo founders to large enterprises and public sector organizations.
           </p>
         </motion.div>
 

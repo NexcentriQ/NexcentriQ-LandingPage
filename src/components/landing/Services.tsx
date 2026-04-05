@@ -1,45 +1,23 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { 
-  Cpu, 
-  Code2, 
-  Workflow, 
-  Building2, 
-  MessageSquareCode, 
-  CreditCard 
-} from "lucide-react";
+import { Code2, Cpu, Users } from "lucide-react";
 
 const services = [
   {
-    icon: Cpu,
-    title: "AI-Powered SaaS Platforms",
-    description: "Intelligent solutions that automate complex business processes with machine learning.",
-  },
-  {
     icon: Code2,
-    title: "Custom-Built Applications",
-    description: "Tailored software solutions designed specifically for your unique business needs.",
+    title: "Custom Applications for Clients",
+    description: "We develop tailored software and SaaS platforms that solve real business challenges. From startups to enterprises, our solutions are scalable, secure, and designed to meet each client's unique needs.",
   },
   {
-    icon: Workflow,
-    title: "Process Automation",
-    description: "Streamline operations with smart workflows that reduce manual intervention.",
+    icon: Cpu,
+    title: "In-House Product Innovation & AI Research",
+    description: "We bring our own ideas to life through innovative applications and ongoing AI research, advancing technology and exploring new solutions. This ensures our internal expertise stays cutting-edge while driving practical, intelligent products.",
   },
   {
-    icon: Building2,
-    title: "Enterprise Tools",
-    description: "Scalable, secure tools built for large organizations and complex requirements.",
-  },
-  {
-    icon: MessageSquareCode,
-    title: "AI Chatbots",
-    description: "Conversational AI that handles customer interactions 24/7 with human-like responses.",
-  },
-  {
-    icon: CreditCard,
-    title: "Subscription Products",
-    description: "Recurring revenue models with seamless billing and customer management.",
+    icon: Users,
+    title: "Team-as-a-Service",
+    description: "We provide dedicated, skilled teams to support other companies with software development, AI integration, and process automation. Acting as an extension of your organization, our teams deliver high-quality results so you can focus on your core business.",
   },
 ];
 
@@ -59,10 +37,10 @@ export const Services = () => {
         >
           <span className="text-primary text-sm font-semibold uppercase tracking-wider">What We Do</span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mt-4 mb-6">
-            What NexcentriQ Does
+            Our Three Core Activities
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            We build intelligent digital products that solve real business problems with cutting-edge technology.
+            At NexcentriQ, we transform ideas into intelligent digital solutions — combining AI-powered technology, human-centered design, and scalable infrastructure to deliver real impact.
           </p>
         </motion.div>
 

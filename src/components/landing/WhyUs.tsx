@@ -6,34 +6,40 @@ import {
   Heart, 
   Lock, 
   Palette, 
-  Target 
+  Target,
+  Users
 } from "lucide-react";
 
 const features = [
   {
     icon: Brain,
     title: "AI-First Architecture",
-    description: "Every product is built with artificial intelligence at its core, not as an afterthought.",
+    description: "Intelligent systems built at the core of every product — not bolted on as an afterthought.",
   },
   {
     icon: Heart,
     title: "Human-Centered Design",
-    description: "Beautiful, intuitive interfaces that users love, designed with empathy and purpose.",
+    description: "Intuitive, beautiful interfaces designed with purpose — built to delight users and drive adoption.",
   },
   {
     icon: Lock,
-    title: "Scalable & Secure Systems",
-    description: "Enterprise-grade security with infrastructure that grows with your business.",
+    title: "Scalable & Secure",
+    description: "Enterprise-grade systems that grow with your business, meeting the highest standards of security and performance.",
   },
   {
     icon: Palette,
-    title: "White-Label & Customizable",
-    description: "Fully brandable platforms that become uniquely yours with your identity.",
+    title: "Custom & White-Label",
+    description: "Fully brandable solutions that reflect your identity — your product, your brand, your business.",
+  },
+  {
+    icon: Users,
+    title: "Team & Vendor Capabilities",
+    description: "Dedicated teams for client projects or enterprise support — acting as a seamless extension of your organization.",
   },
   {
     icon: Target,
     title: "Built for Real-World Problems",
-    description: "We solve actual business challenges, not theoretical ones. Practical solutions that work.",
+    description: "Practical solutions that drive measurable impact — we solve actual business challenges, not theoretical ones.",
   },
 ];
 
@@ -56,8 +62,7 @@ export const WhyUs = () => {
               Why NexcentriQ?
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              We're not just another software company. We're your strategic partner in digital transformation, 
-              combining cutting-edge technology with deep business understanding.
+              We are more than a software company — we are your strategic partner in digital transformation, combining cutting-edge technology with deep business understanding.
             </p>
             
             {/* Feature List */}
