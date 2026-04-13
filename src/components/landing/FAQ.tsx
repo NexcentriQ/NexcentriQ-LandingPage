@@ -15,7 +15,7 @@ const faqs = [
   },
   {
     question: "How does the white-label customization work?",
-    answer: "Our white-label platforms are fully customizable to match your brand identity. You can apply your own logo, colors, typography, and design elements. The end product appears as if it was built exclusively for your business, with no visible ties to NexcentriQ.",
+    answer: "Our white-label platforms are fully customizable to match your brand identity. The end product appears as if it was built exclusively for your business, with no visible ties to NexcentriQ.",
   },
   {
     question: "What is your pricing model?",

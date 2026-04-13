@@ -7,7 +7,8 @@ import {
   Lock, 
   Palette, 
   Target,
-  Users
+  Users,
+  Globe
 } from "lucide-react";
 
 const features = [
@@ -27,9 +28,9 @@ const features = [
     description: "Enterprise-grade systems that grow with your business, meeting the highest standards of security and performance.",
   },
   {
-    icon: Palette,
-    title: "Custom & White-Label",
-    description: "Fully brandable solutions that reflect your identity — your product, your brand, your business.",
+    icon: Globe,
+    title: "Global Delivery Model",
+    description: "Our approach combines a growing U.S. business presence with a strong India-based engineering team, enabling cost-effective, scalable, and high-quality solution delivery.",
   },
   {
     icon: Users,
@@ -41,6 +42,11 @@ const features = [
     title: "Built for Real-World Problems",
     description: "Practical solutions that drive measurable impact — we solve actual business challenges, not theoretical ones.",
   },
+  {
+    icon: Palette,
+    title: "Custom & White-Label",
+    description: "Fully brandable solutions that reflect your identity — your product, your brand, your business.",
+  },
 ];
 
 export const WhyUs = () => {
@@ -50,7 +56,7 @@ export const WhyUs = () => {
   return (
     <section id="why-us" ref={ref} className="py-24 bg-card/30">
       <div className="container mx-auto px-4 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-16 items-start">
           {/* Left Content */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}

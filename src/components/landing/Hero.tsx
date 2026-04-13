@@ -69,7 +69,7 @@ export const Hero = ({ onOpenContact }: HeroProps) => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10"
           >
-            AI-powered SaaS solutions designed for startups, enterprises, governments, and everyday businesses.
+            AI-powered SaaS solutions that turn complex business challenges into scalable digital products.
           </motion.p>
 
           {/* CTAs */}

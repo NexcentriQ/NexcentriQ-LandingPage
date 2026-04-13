@@ -7,17 +7,17 @@ const services = [
   {
     icon: Code2,
     title: "Custom Applications for Clients",
-    description: "We develop tailored software and SaaS platforms that solve real business challenges. From startups to enterprises, our solutions are scalable, secure, and designed to meet each client's unique needs.",
+    description: "We design and deliver tailored software and SaaS platforms that solve real business challenges. From startups to enterprises, our solutions are scalable, secure, and built to meet each client’s unique needs.",
   },
   {
     icon: Cpu,
     title: "In-House Product Innovation & AI Research",
-    description: "We bring our own ideas to life through innovative applications and ongoing AI research, advancing technology and exploring new solutions. This ensures our internal expertise stays cutting-edge while driving practical, intelligent products.",
+    description: "We bring our ideas to life through innovative applications and ongoing AI research, advancing technology and exploring new solutions. This ensures our expertise stays cutting-edge while driving practical, intelligent products.",
   },
   {
     icon: Users,
     title: "Team-as-a-Service",
-    description: "We provide dedicated, skilled teams to support other companies with software development, AI integration, and process automation. Acting as an extension of your organization, our teams deliver high-quality results so you can focus on your core business.",
+    description: "We provide access to dedicated, skilled engineering teams through our global delivery model, supporting companies with software development, AI integration, and process automation. Our teams act as an extension of your organization, delivering high-quality results while you focus on your core business.",
   },
 ];
 

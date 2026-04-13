@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Linkedin, Twitter, Github } from "lucide-react";
+import { Link } from "react-router-dom";
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
   const footerLinks = {
@@ -25,13 +26,13 @@ export const Footer = () => {
     }],
     legal: [{
       label: "Privacy Policy",
-      href: "#"
+      href: "/privacy-policy"
     }, {
       label: "Terms of Service",
-      href: "#"
+      href: "/terms-of-service"
     }, {
       label: "Cookie Policy",
-      href: "#"
+      href: "/cookie-policy"
     }]
   };
   return <footer className="py-16 border-t border-border bg-card/50">
@@ -90,9 +91,9 @@ export const Footer = () => {
             <h4 className="font-semibold text-foreground mb-4">Legal</h4>
             <ul className="space-y-3">
               {footerLinks.legal.map(link => <li key={link.label}>
-                  <a href={link.href} className="text-muted-foreground hover:text-foreground transition-colors">
+                  <Link to={link.href} className="text-muted-foreground hover:text-foreground transition-colors">
                     {link.label}
-                  </a>
+                  </Link>
                 </li>)}
             </ul>
           </div>
